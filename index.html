@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sewa & Rental Mobil - Bengkulu</title>
+    <link rel="icon" href="img/car.png" type="image/png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>Jl. Lintas Barat Sumatera, Kota Bengkulu</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Sunday - Monday : Everytime!</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+628-136-804-5100</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary">
+                <img src="img/car.png" alt="Mobil Ikon" width="60" height="40" class="me-3">
+                Sewa & Rental Mobil Bengkulu
+            </h2>            
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a class="nav-item nav-link" href="https://wa.me/6281368045100" target="_blank" style="display: flex; align-items: center; gap: 8px;">
+                    <img src="img/wa.png" alt="WhatsApp" style="width: 40px; height: 40px;"> 
+                    Contact
+                </a>                
+            </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Home<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/benteng.jpg" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Layanan Mobil //</h6>
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Rental Mobil (Include Driver)</h1>
+                                    <a href="#unit-armada" class="btn btn-primary py-3 px-5 animated slideInDown">Booking<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
+                                    <img class="img-fluid" src="img/bunga.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/pantai.jpg" alt="Image">
+                    <div class="carousel-caption d-flex align-items-center">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center justify-content-lg-start">
+                                <div class="col-10 col-lg-7 text-center text-lg-start">
+                                    <h6 class="text-white text-uppercase mb-3 animated slideInDown">// Layanan Mobil //</h6>
+                                    <h1 class="display-3 text-white mb-4 pb-3 animated slideInDown">Sewa Mobil (Lepas Kunci)</h1>
+                                    <a href="#unit-armada" class="btn btn-primary py-3 px-5 animated slideInDown">Booking<i class="fa fa-arrow-right ms-3"></i></a>
+                                </div>
+                                <div class="col-lg-5 d-none d-lg-flex animated zoomIn">
+                                    <img class="img-fluid" src="img/rumah.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h3 class="mb-3">Sewa Mobil Perjam</h3>
+                            <h4>Mulai dari 50.000/jam</h4>
+                            <p>> Lepas Kunci</p>
+                            <p>> include Driver</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h3 class="mb-3">Sewa Mobil Harian</h3>
+                            <h4>Mulai dari 200.000/hari</h4>
+                            <p>> Lepas Kunci</p>
+                            <p>> include Driver</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="d-flex py-5 px-4">
+                        <i class="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
+                        <div class="ps-4">
+                            <h3 class="mb-3">Sewa Mobil Mingguan</h3>
+                            <h4>Mulai dari 500.000/minggu</h4>
+                            <p>> Lepas Kunci</p>
+                            <p>> include Driver</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
+                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
+                            <h1 class="display-4 text-white mb-0">4 <span class="fs-4">Tahun</span></h1>
+                            <h4 class="text-white">Pengalaman</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="text-primary text-uppercase">// Tentang Kami //</h6>
+                    <h1 class="mb-4"><span class="text-primary">Sewa & Rental Mobil Bengkulu</span> Is The Best Place For Your Rent!</h1>
+                    <p class="mb-4">Kami adalah penyedia layanan transportasi terpercaya di Bengkulu, menawarkan jasa rental mobil dengan pilihan menggunakan sopir atau lepas kunci. Layanan kami mencakup berbagai kebutuhan, seperti perjalanan dinas, wisata, acara bisnis, pernikahan, dan lainnya. Dengan pengalaman bertahun-tahun di industri transportasi, kami menjadi pilihan utama bagi masyarakat dan wisatawan yang mencari layanan rental mobil berkualitas dengan harga terjangkau.</p>
+                    <div class="row g-4 mb-3 pb-3">
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">01</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>Professional & Berpengalaman</h6>
+                                    <span>Mobil selalu dalam keadaan fresh dan selalu bersih</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">02</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>Layanan Yang Fleksibel</h6>
+                                    <span>Kami bisa menyesuaikan kebutuhan pelanggan</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="d-flex">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                    <span class="fw-bold text-secondary">03</span>
+                                </div>
+                                <div class="ps-3">
+                                    <h6>Harga Terjangkau</h6>
+                                    <span>Untuk merayakan 4 tahun kami menawarkan harga sewa mobil termurah di Kota Bengkulu</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl service py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">// Layanan Sewa & Rental Mobil Bengkulu //</h6>
+                <h1 class="mb-5">Eksplor Terus Layanan Kami</h1>
+            </div>
+            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-4">
+                    <div class="nav w-100 nav-pills me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <i class="fa fa-car-side fa-2x me-3"></i>
+                            <h4 class="m-0">Sewa & Rental Mobil</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <i class="fa fa-car fa-2x me-3"></i>
+                            <h4 class="m-0">Layanan Panduan Liburan</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <i class="fa fa-cog fa-2x me-3"></i>
+                            <h4 class="m-0">Selalu Mobil Terbarukan</h4>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
+                            <i class="fa fa-oil-can fa-2x me-3"></i>
+                            <h4 class="m-0">Keadaan Mobil yang selalu Siap Pakai</h4>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">4 Tahun pengalaman dalam melayani pelanggan menyesuaikan kebutuhan</h3>
+                                    <p class="mb-4">Kami siap antar jemput mulai dari bandara, mengantarkan mobil ke rumah / penginapan pelanggan, menjadi supir pribadi dalam hitungan perjam.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Prioritas Kami untuk kenyamanan Pelanggan</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Selalu melayani Pelanggan sebaik mungkin</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Menyesuaikan untuk kebutuhan Pelanggan</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-2.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Kami menawarkan tempat wisata dan liburan terbaik di Kota & Provinsi Bengkulu</h3>
+                                    <p class="mb-4">Bengkulu terkenal dengan wisata Pantai Panjang yang terbentang 7km di pinggir Samudera Hindia, Benteng Marlborough peninggalam Inggris dan bunga Rafflesia khasnya.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Memberikan pengalaman baru untuk Pelanggan</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>menawarkan destinasi baru</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Lokasi wisata sejarah yang terbaik</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-3.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Kami selalu menawarkan kualitas mobil terbaru dan terbaik di setiap kelasnya</h3>
+                                    <p class="mb-4">Kami menjamin kualitas dan kuantitas mobil terbarukan agar memberikan pengalaman yang tak terlupakan atas pelayanan sewa & rental mobil di perusahaan kami.</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Kami bekerjasama dengan beberapa dealer</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Kendaraan yang kami miliki selalu terbarukan</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Berusaha selalu menyediakan kendaraan terbaik</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-3">Mobil yang kami tawarkan selalu dalam keadaan prima tanpa ada rasa kekhawatiran</h3>
+                                    <p class="mb-4">Kami menjamin kenyamanan selama pemakaian mobil dan keamanan kendaraan agar Pelanggan merasa puas selama memakai jasa dari Kami</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Kami selalu mengisi BBM dalam keadaan full-tank</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Selalu memeriksa keadaan kendaraan</p>
+                                    <p><i class="fa fa-check text-success me-3"></i>Mendetail dalam perawatan rutin</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Cars Start -->
+    <div class="container-xxl py-5">
+        <div class="container" id="unit-armada">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-primary text-uppercase">// Daftar Mobil //</h6>
+                <h1 style="margin-bottom: 10px;">Unit Armada Mobil</h1>
+                <h2 style="margin-bottom: 10px;">Lepas Kunci / Plus Driver</h2>
+                <h3 style="margin-top: 50px; padding: 10px; border: 2px solid red; background-color: red; color: white; font-weight: bold; display: inline-block;">
+                    TOYOTA
+                </h3>                
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/agya.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota Agya GR 2024</h5>
+                            <br>
+                            <p>50.000/jam</p>
+                            <p>200.000/hari</p>
+                            <p>800.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/calya.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota Calya 2024</h5>
+                            <br>
+                            <p>50.000/jam</p>
+                            <p>200.000/hari</p>
+                            <p>850.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/avanza.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota Avanza 2024</h5>
+                            <br>
+                            <p>80.000/jam</p>
+                            <p>250.000/hari</p>
+                            <p>1.000.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/fotuner.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota Fortuner 2024</h5>
+                            <br>
+                            <p>100.000/jam</p>
+                            <p>450.000/hari</p>
+                            <p>1.300.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/reborn.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota Innova Reborn 2024</h5>
+                            <br>
+                            <p>150.000/jam</p>
+                            <p>550.000/hari</p>
+                            <p>3.000.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/voxy.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota Voxy 2024</h5>
+                            <br>
+                            <p>300.000/jam</p>
+                            <p>1.500.000/hari</p>
+                            <p>6.000.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/hiace.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota Hiace Commuter</h5>
+                            <br>
+                            <p>300.000/jam</p>
+                            <p>1.500.000/hari</p>
+                            <p>5.900.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/alphard.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Toyota New Alphard 2024</h5>
+                            <br>
+                            <p>500.000/jam</p>
+                            <p>3.500.000/hari</p>
+                            <p>15.000.000/minggu</p>
+                        </div>
+                    </div>
+                </div>      
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h3 style="margin-top: 50px; padding: 10px; border: 2px solid red; background-color: red; color: white; font-weight: bold; display: inline-block;">
+                    HONDA
+                </h3>                
+            </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/brio.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda Brio 2024</h5>
+                            <br>
+                            <p>50.000/jam</p>
+                            <p>200.000/hari</p>
+                            <p>950.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/city.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda City 2024</h5>
+                            <br>
+                            <p>100.000/jam</p>
+                            <p>250.000/hari</p>
+                            <p>1.100.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/hrv.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda HRV 2024</h5>
+                            <br>
+                            <p>200.000/jam</p>
+                            <p>450.000/hari</p>
+                            <p>1.500.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/accord.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda New Accord 2024</h5>
+                            <br>
+                            <p>300.000/jam</p>
+                            <p>800.000/hari</p>
+                            <p>5.000.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/civictr.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda Civic Type-R 2024</h5>
+                            <br>
+                            <p>400.000/jam</p>
+                            <p>1.200.000/hari</p>
+                            <p>6.000.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/mobilio.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda Mobilio 2024</h5>
+                            <br>
+                            <p>50.000/jam</p>
+                            <p>250.000/hari</p>
+                            <p>1.100.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/civicrs.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda Civic RS 2024</h5>
+                            <br>
+                            <p>150.000/jam</p>
+                            <p>450.000/hari</p>
+                            <p>4.500.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/crv.webp" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Honda CR-V 2024</h5>
+                            <br>
+                            <p>200.000/jam</p>
+                            <p>350.000/hari</p>
+                            <p>1.800.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h3 style="margin-top: 50px; padding: 10px; border: 2px solid red; background-color: red; color: white; font-weight: bold; display: inline-block;">
+                        DAIHATSU
+                    </h3>                    
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/ayla.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Daihatsu Ayla 2024</h5>
+                            <br>
+                            <p>50.000/jam</p>
+                            <p>150.000/hari</p>
+                            <p>600.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/terios.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Daihatsu Terios 2024</h5>
+                            <br>
+                            <p>200.000/jam</p>
+                            <p>450.000/hari</p>
+                            <p>1.900.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/xenia.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Daihatsu Xenia 2024</h5>
+                            <br>
+                            <p>50.000/jam</p>
+                            <p>300.000/hari</p>
+                            <p>1.800.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/sigra.png" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Daihatsu Sigra 2024</h5>
+                            <br>
+                            <p>50.000/jam</p>
+                            <p>200.000/hari</p>
+                            <p>1.150.000/minggu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cars End -->
+
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="text-primary text-uppercase">// Syarat & Ketentuan //</h6>
+                <h1 style="margin-bottom: 5px;">Jaminan Syarat</h1>
+                <h1 style="margin-top: 5px; margin-bottom: 20px;">Sewa / Rental Mobil Bengkulu</h1>
+            </div>
+            <div class="container text-center">
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center justify-content-center mb-3">
+                        <img class="bg-light rounded-circle p-2 me-3" src="img/ktp.png" style="width: 50px; height: 50px;">
+                        <span>ID Card / KTP Asli</span>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-center mb-3">
+                        <img class="bg-light rounded-circle p-2 me-3" src="img/sim.png" style="width: 50px; height: 50px;">
+                        <span>SIM C Motor</span>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-center mb-3">
+                        <img class="bg-light rounded-circle p-2 me-3" src="img/stnk.png" style="width: 50px; height: 50px;">
+                        <span>Sepeda Motor + STNK</span>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-center mb-3">
+                        <img class="bg-light rounded-circle p-2 me-3" src="img/uang.png" style="width: 50px; height: 50px;">
+                        <div>
+                            <span>Deposit uang 50% dari keinginan sewa / rental</span>
+                        </div>
+                    </li>
+                    <li class="d-flex align-items-center justify-content-center mb-3">
+                        <img class="bg-light rounded-circle p-2 me-3" src="img/driver.png" style="width: 50px; height: 50px;">
+                        <div>
+                            <span>Jika ingin opsi Plus Driver bisa hubungi kontak langsung</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+
+    <!-- Booking Start -->
+    <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6 py-5">
+                    <div class="py-5">
+                        <h1 class="text-white mb-4">Booking Sekarang!</h1>
+                        <p class="text-white mb-0"></p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5">
+                        <h1 class="text-white mb-4">Booking Untuk Sewa & Rental Mobil</h1>
+                        <form id="bookingForm">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" id="name" class="form-control border-0" placeholder="Nama" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" id="email" class="form-control border-0" placeholder="Email" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" id="jaminan" class="form-control border-0" placeholder="Jaminan" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" id="mobil" class="form-control border-0" placeholder="Mobil" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select id="service" class="form-select border-0" style="height: 55px;" required>
+                                        <option selected>Layanan</option>
+                                        <option value="Sewa Perjam">Sewa Perjam</option>
+                                        <option value="Sewa Harian">Sewa Harian</option>
+                                        <option value="Sewa Mingguan">Sewa Mingguan</option>
+                                        <option value="Sewa Harian + Supir">Sewa Harian + Supir</option>
+                                        <option value="Sewa Mingguan + Supir">Sewa Mingguan + Supir</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" id="date" class="form-control border-0" placeholder="Tanggal Sewa & Rental" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea id="request" class="form-control border-0" placeholder="Rincian Pesanan Booking Mobil"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-secondary w-100 py-3" type="button" id="sendMessage">Booking!</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <script>
+                    document.getElementById("sendMessage").addEventListener("click", function () {
+                        const name = document.getElementById("name").value;
+                        const email = document.getElementById("email").value;
+                        const jaminan = document.getElementById("jaminan").value;
+                        const mobil = document.getElementById("mobil").value;
+                        const service = document.getElementById("service").value;
+                        const date = document.getElementById("date").value;
+                        const request = document.getElementById("request").value;
+                
+                        if (service === "Layanan") {
+                            alert("Silakan pilih layanan terlebih dahulu.");
+                            return;
+                        }
+                
+                        const message = `Halo, saya ingin memesan layanan berikut:
+                Nama: ${name}
+                Email: ${email}
+                Jaminan: ${jaminan}
+                Mobil: ${mobil}
+                Layanan: ${service}
+                Tanggal: ${date}
+                Permintaan Tambahan: ${request}`;
+                
+                        const phoneNumber = "6281234567890"; // Ganti dengan nomor WhatsApp tujuan
+                        const whatsappURL = `https://wa.me/${6281368045100}?text=${encodeURIComponent(message)}`;
+                
+                        window.open(whatsappURL, "_blank");
+                    });
+                </script>                       
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+    <!-- Bayar start-->
+    <div class="bayar0">
+        <div class="bayar1">
+            <div class="bayar2">Metode Pembayaran</div>
+            <div class="logo">
+                <img alt="BRI logo" src="img/bri.png"/>
+                <img alt="BCA logo" src="img/bca.png"/>
+                <img alt="DANA logo" src="img/dana.png"/>
+            </div>
+        </div>
+    </div>     
+    <!-- Bayar End-->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Alamat</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Lintas Barat Sumatera, Kota Bengkulu</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+628-136-804-5100</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>srmbengkulu@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Jam Operasional</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">24 Jam</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">24 Jam</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Layanan</h4>
+                    <a class="btn btn-link" href="">Sewa Mobil</a>
+                    <a class="btn btn-link" href="">Rental Mobil</a>
+                    <a class="btn btn-link" href="">Sewa & Rental + Driver</a>
+                    <a class="btn btn-link" href="">Liburan Wisata</a>
+                    <a class="btn btn-link" href="">Antar Jemput Tempat</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Keluhan?</h4>
+                    <p>Silahkan hubungi WhatsApp dibawah ini, terimakasih</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Keluhan">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Kirim!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Sewa & Rental Mobil</a>, Bengkulu.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <a class="border-bottom" href="https://htmlcodex.com"></a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href=""></a>
+                            <a href=""></a>
+                            <a href=""></a>
+                            <a href=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="https://wa.me/6281368045100" class="btn back-to-top"><img src="img/wa.png" alt="WhatsApp" style="width: 50px; height: 50px;"></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
