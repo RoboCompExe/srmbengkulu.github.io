@@ -72,7 +72,6 @@
     border-radius: 2px;
 }
 
-
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
@@ -356,6 +355,79 @@
     font-family: 'Gotham', sans-serif; /* Gunakan font Gotham */
 }
 
+/*Payment */
+payment {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://placehold.co/1920x1080') no-repeat center center fixed;
+    background-size: cover;
+}
+.containerpayment {
+    text-align: center;
+    color: white;
+}
+.containerpayment h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.buttonpayment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.buttonpayment img {
+    width: 40px;
+    height: 40px;
+}
+.buttonpayment span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+.buttonpayment i {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.containerpayment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+}
+.buttonpayment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.payment-options {
+    display: none;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+.payment-options img {
+    width: 60px;
+    margin: 5px;
+}
 
 /* Styling untuk logo */
 .logo {
